@@ -31,7 +31,7 @@ function init {
 
 	function setPrompt {
 		if [ "$1" == "workspace" ]; then
-			setWorkspacePrompt $@
+			setWorkspacePrompt ${*:2}
 		else
 			# TODO: Prefix with plugin log prefix or use log function.
 			echo "ERROR: Prompt of type '$1' not found!"
