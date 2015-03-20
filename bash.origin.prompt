@@ -9,7 +9,10 @@ function init {
 	function setWorkspacePrompt {
 
 		ORIGIN_ROOT_PATH="$1"
-		ORIGIN_NAME="$( basename "$ORIGIN_ROOT_PATH" )"
+		ORIGIN_NAME=""
+		if [ "$ORIGIN_ROOT_PATH" != "" ]; then
+			ORIGIN_NAME="$( basename "$ORIGIN_ROOT_PATH" )"
+		fi
 
 		function parse_git_branch {
 			git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1 /'
