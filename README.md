@@ -35,3 +35,12 @@ API
 Supported modes:
 
   * `workspace` - For use when *activating* workspaces for development. Includes the basename of the origin path to label the system, git branch, and relative path of current working directory to the origin path.
+
+
+License
+=======
+
+Original Author: [Christoph Dorn](http://christophdorn.com)
+
+[UNLICENSE](http://unlicense.org/)
+
