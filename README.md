@@ -1,7 +1,7 @@
 bash.origin.prompt
 ==================
 
-Modify the prompt.
+A plugin for [Bash.Origin](https://github.com/bash-origin/bash.origin) that modifies the terminal prompt.
 
 
 Usage
