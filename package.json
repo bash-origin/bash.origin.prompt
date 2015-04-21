@@ -1,0 +1,9 @@
+{
+  "uid": "github.com/bash-origin/bash.origin.prompt",
+  "name": "bash.origin.prompt",
+  "version": "0.1.0",
+  "main": "plugin.js",
+  "dependencies": {
+    "inquirer": "^0.8.2"
+  }
+}

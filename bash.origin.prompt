@@ -40,5 +40,6 @@ function init {
 			echo "ERROR: Prompt of type '$1' not found!"
 		fi
 	}
+
 }
 init $@
