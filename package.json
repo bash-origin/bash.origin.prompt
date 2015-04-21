@@ -5,5 +5,10 @@
   "main": "plugin.js",
   "dependencies": {
     "inquirer": "^0.8.2"
+  },
+  "config": {
+    "pio.deploy.converter": {
+      "name": "nodejs-lib"
+    }
   }
 }
