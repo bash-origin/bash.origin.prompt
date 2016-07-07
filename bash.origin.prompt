@@ -24,7 +24,7 @@ function init {
 				if [[ $WORKING_PATH == "$ORIGIN_ROOT_PATH"* ]]; then
 					echo -e "\033[33m./${WORKING_PATH#$ORIGIN_ROOT_PATH/}\033[0m "
 				else
-					echo -e "\033[1;31mWARNING Current working directory: ${WORKING_PATH#$ORIGIN_ROOT_PATH/}\\nis OUTSIDE if workspace root: $ORIGIN_ROOT_PATH\\n\033[0m"
+					echo -e "\033[1;31mWARNING Current working directory: ${WORKING_PATH#$ORIGIN_ROOT_PATH/}\\nis OUTSIDE of workspace root: $ORIGIN_ROOT_PATH\\n\033[0m"
 				fi
 			fi
 		}
