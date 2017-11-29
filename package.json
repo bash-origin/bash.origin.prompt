@@ -1,17 +1,17 @@
 {
-  "uid": "github.com/bash-origin/bash.origin.prompt",
-  "name": "bash.origin.prompt",
-  "version": "0.1.2",
-  "pm": {
-      "publish": "npm"
-  },
-  "main": "plugin.js",
-  "dependencies": {
-    "inquirer": "^0.8.2"
-  },
-  "config": {
-    "pio.deploy.converter": {
-      "name": "nodejs-lib"
+    "uid": "github.com/bash-origin/bash.origin.prompt",
+    "name": "bash.origin.prompt",
+    "version": "0.1.3",
+    "pm": {
+        "publish": "npm"
+    },
+    "main": "plugin.js",
+    "dependencies": {
+        "inquirer": "^0.8.2"
+    },
+    "config": {
+        "pio.deploy.converter": {
+            "name": "nodejs-lib"
+        }
     }
-  }
 }
