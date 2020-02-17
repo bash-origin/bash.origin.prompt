@@ -43,4 +43,3 @@ License
 Original Author: [Christoph Dorn](http://christophdorn.com)
 
 [UNLICENSE](http://unlicense.org/)
-
