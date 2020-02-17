@@ -1,7 +1,7 @@
 #!/usr/bin/env bash.origin.script
 
 depend {
-    "prompt": "@../..#s1"
+    "prompt": "bash.origin.prompt # prompt/v0"
 }
 
 CALL_prompt setPrompt "workspace" "context"
