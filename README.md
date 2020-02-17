@@ -1,6 +1,8 @@
 bash.origin.prompt
 ==================
 
+[![CircleCI](https://circleci.com/gh/bash-origin/bash.origin.prompt.svg?style=svg)](https://circleci.com/gh/bash-origin/bash.origin.prompt)
+
 A plugin for [Bash.Origin](https://github.com/bash-origin/bash.origin) that modifies the terminal prompt.
 
 
