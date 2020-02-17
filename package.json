@@ -1,21 +1,18 @@
 {
   "uid": "github.com/bash-origin/bash.origin.prompt",
   "name": "bash.origin.prompt",
-  "version": "0.2.0-pre.0",
+  "version": "0.2.0-pre.1",
   "pm": {
     "publish": "npm"
   },
   "main": "plugin.js",
   "dependencies": {
-    "inquirer": "^0.8.2",
-    "bash.origin.lib": "^0.4.0-pre.0"
+    "inquirer": "^0.8.2"
+  },
+  "devDependencies": {
+    "bash.origin.test": "^0.2.0-pre.10"
   },
   "scripts": {
     "test": "bash.origin.test examples"
-  },
-  "config": {
-    "pio.deploy.converter": {
-      "name": "nodejs-lib"
-    }
   }
 }
