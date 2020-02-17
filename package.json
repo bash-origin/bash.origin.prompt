@@ -10,7 +10,7 @@
     "inquirer": "^0.8.2"
   },
   "devDependencies": {
-    "bash.origin.test": "^0.2.0-pre.7"
+    "bash.origin.test": "^0.2.0-pre.10"
   },
   "scripts": {
     "test": "bash.origin.test examples"
